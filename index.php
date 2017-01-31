@@ -1,10 +1,10 @@
 <?php
-	/*require('sql/conexion.php');
+	require('sql/connection.php');
 	
 	$query = "SELECT id, usuario, email FROM usuarios";
 	
 	$resultado = $mysqli->query($query);
-	*/
+	
 ?>
 
 <html>
@@ -17,7 +17,7 @@
 		
 		<a href="new.php">Nuevo usuario</a>
 		<p></p>
-		
+		<center>
 		<table border=1 width="80%">
 			<thead>
 				<tr>
@@ -43,7 +43,9 @@
 						</tr>
 					<?php } ?>
 				</tbody>
+			</thead>
 			</table>
+	    </center>
 		</body>
 	</html>	
 	
