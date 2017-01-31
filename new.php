@@ -7,7 +7,7 @@
 		<center><h1>Nuevo Usuario</h1></center>
 		
 		<center>
-		<form name="nuevo_usuario" method="POST" action="guarda_usuario.php">
+		<form name="nuevo_usuario" method="POST" action="save_user.php">
 			<table width="50%">
 				<tr>
 					<td width="20"><b>Usuario</b></td>
